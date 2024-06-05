@@ -1,0 +1,56 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background: url(./fondodb.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  /* Contenedor del reloj */
+  .clock-container {
+    background-color: #fbfbfb61; /* Color de fondo predeterminado */
+    border-radius: 50%; /* Hacemos que el contenedor del reloj sea redondo */
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    color: #333; /* Color de texto predeterminado */
+  }
+  
+  /* Hora del reloj */
+  .clock-time {
+    font-size: 3.5rem;
+  }
+  
+  /* Pie del reloj */
+  .clock-footer {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  
+  /* Estilos de tema oscuro */
+  .App.dark-mode {
+    background-color: rgba(17, 17, 17, 0.439); /* Color de fondo oscuro */
+    border-radius: 50%; /* Hacemos que el contenedor del reloj sea redondo */
+  }
+  
+  .App.dark-mode .clock-container {
+    background-color: #2222220b; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto para el tema oscuro */
+  }
+  
+  .toggle-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%; /* Hacemos que el botón sea redondo */
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  } 
